@@ -5,11 +5,6 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -22,13 +17,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
+- Create a Windows 10 Virtual Machine within Azure
 - Download and configure prerequisite files
-- Item 2
 - Item 3
 - Item 4
 - Item 5
 
 <h2>Installation Steps</h2>
+
+- ### Create a Windows 10 Virtual Machine within Azure
+- <img width="1128" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/51323fc8-96d6-40ed-b3f5-b83deda12197">
+
+- ### Configure IIS (Internet Information Services)
+  - Login to the VM and navigate to Start > Control Panel > Programs > Turn Windows Features On or Off
+  - <img width="846" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/38b93632-8e2a-4409-a21f-b2caae9a75c5">
+
+  - Scroll down to "Internet Information Services" and expand the folder > Expand "Application Development Features" > Enable "CGI"
+  - <img width="344" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/1aad4ee8-347c-4b73-b941-958609f1ddf1">
+
+
 
 - ### Prior to installing osTicket, dowload the following files onto the computer, the files can be found here: https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 - 
