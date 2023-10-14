@@ -17,11 +17,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Create a Windows 10 Virtual Machine within Azure
-- Download and configure prerequisite files
-- Item 3
-- Item 4
-- Item 5
+- Create a new Resource Group Within Azure
+- Create a Windows 10 Virtual Machine 
 
 <h2>Installation Steps</h2>
 
@@ -54,6 +51,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
+- ### Install PHP Manager for IIS 
+  - Dowload PHP Manager and go through the Installation steps: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=sharing
+  - Download the rewrite module and go through the Installation steps (This is a backend module required by osTicket): https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=sharing
+
+  - Create a directory for PHP on the C:\ Hard Drive
+    <img width="846" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/161cf9df-52da-4df2-876d-68729a8c37c1">
+
+  - Download the PHP zip file into the PHP directory: https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link
+  - Exctract the contents of the downloaded PHP file into the previously created PHP directory
+    <img width="846" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/49857146-9b00-4ae6-b6f7-c40c3015ef84">
+ 
+  
+    
+
+  
 
 - ### Prior to installing osTicket, dowload the following files onto the computer, the files can be found here: https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 - 
