@@ -201,11 +201,30 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <img width="686" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/3e9b7fe6-2b0c-4531-bf67-e0deb97d7765">
 
   - Click on the "Full Control" checkbox to give everyone full control (This is temporary and will be changed back later)
+  - Click on "Ok" and "Apply" to apply all the changes made
  
     <img width="687" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/7c84a321-75c4-4bf9-afc9-b3e0eda6ac42">
 
- 
+ - ##  osTicket Configuration
 
+  - Navigate to the osTicket installer page and press "Continue" to set up login credentials
+
+    <img width="416" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/e8f24b98-7088-465d-9b80-f4bdceb89894">
+
+    <img width="421" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/7df27376-877d-482d-817b-94ba5f1f1cb5">
+
+  - Enter in desired values for the chosen fields:
+    - Helpdesk Name
+    - Default Email
+    - First Name
+    - Last Name
+    - Email Address
+    - Username
+    - Password
+
+  - Setup database before filling in the database section within osTicket
+
+    <img width="211" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/fc05d5c7-9bae-43ed-b8c3-74df0d28a3bd">
 
 
 
