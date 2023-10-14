@@ -134,36 +134,36 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
+- ### Download and Install osTicket
+
+  - osTicket download: https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=sharing
+ 
+  - Open the "osTicket" folder
+
+    <img width="846" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/d96dff2d-6543-4aed-9da2-5a10cf0d51ec">
+
+  - Drag the "upload" folder from osTicket and drop it into the "wwwroot" folder
+  - The "wwwroot" folder can be accessed by navigating to C:\ Directory > inetpub > wwwroot
+  - After dragging the "upload" folder into the "wwwroot" folder, rename the "upload" folder to "osTicket"
+
+    <img width="1105" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/66af7c45-1edc-4d69-ab80-92c2432f0884">
 
 
+  - Open up IIS and restart the server
 
+    <img width="833" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/5e95bc29-f124-4c2a-85a3-6c0f05fcbaf7">
 
+  - Within IIS, on the left panel under "Connections", navigate to "Sites" > "Default Web Site" > "osTicket"
 
+    <img width="836" alt="iisone" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/721d588e-70f2-4048-b086-c0324950ccda">
 
+  - Click on "Browse *:80 (http)" on the right panel under "Manage Folder" > "Browse Folder"
 
+    <img width="834" alt="browse80" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/29e8082d-e78f-4765-b164-d7ca8cc16ead">
 
+  - You should be presented with this screen within the internet browser
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- ### Prior to installing osTicket, dowload the following files onto the computer, the files can be found here: https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-- 
-
-
-<img width="1091" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/066d4d73-3ac1-4bfd-8824-7afbe547c9c9">
+    <img width="1091" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/066d4d73-3ac1-4bfd-8824-7afbe547c9c9">
 
 
 
