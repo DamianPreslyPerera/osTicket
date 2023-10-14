@@ -110,8 +110,27 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
+- ### Open IIS (Internet Information Services) as an Admin & Register PHP from within IIS
 
+  - Open and run IIS as an administrator
 
+    <img width="587" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/ee4d2d1b-7aa5-478d-9dc1-bf967327cb51">
+
+  - Click on "PHP Manager"
+
+    <img width="838" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/ad6cb16a-a796-4d20-b66d-d77e2710a083">
+
+  - Click on "Register a new PHP version"
+ 
+    <img width="836" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/05d96872-b98b-4b3d-a41a-6e6559e0b98a">
+
+  - Navigate to the "PHP" directory and choose "php-cgi" and click "Open"
+
+    <img width="835" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/6acba532-b69a-45a8-87cd-10e627c66a01">
+
+  - Navigate back to the IIS homepage and click "Restart" to restart the IIS Server
+
+    <img width="834" alt="serverstart" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/e7f042b7-af5f-4ed5-8467-b3779aa99fbe">
 
 
 
