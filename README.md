@@ -20,13 +20,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create a new Resource Group Within Azure
 - Create a Windows 10 Virtual Machine 
 
-<h2>Installation Steps</h2>
 
-- ### Create a Windows 10 Virtual Machine within Azure
+
+
+
+
+<h1>Installation Steps</h1>
+
+- ## Create a Windows 10 Virtual Machine within Azure
   
  <img width="1128" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/51323fc8-96d6-40ed-b3f5-b83deda12197">
 
-- ### Configure IIS (Internet Information Services)
+- ## Configure IIS (Internet Information Services)
   - Login to the VM and navigate to Start > Control Panel > Programs > Turn Windows Features On or Off
 
     <img width="846" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/38b93632-8e2a-4409-a21f-b2caae9a75c5">
@@ -51,7 +56,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
-- ### Install PHP Manager for IIS 
+- ## Install PHP Manager for IIS 
   - Dowload PHP Manager and go through the Installation steps: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=sharing
   - Download the rewrite module and go through the Installation steps (This is a backend module required by osTicket): https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=sharing
 
@@ -69,7 +74,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <img width="360" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/dd409c05-a161-431a-810d-28567aa334c6">
 
 
-- ### Download and Install MySQL Server
+- ## Download and Install MySQL Server
   
 - mySQL Server Download: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=sharing
   
@@ -110,7 +115,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
-- ### Open IIS (Internet Information Services) as an Admin & Register PHP from within IIS
+- ## Open IIS (Internet Information Services) as an Admin & Register PHP from within IIS
 
   - Open and run IIS as an administrator
 
@@ -134,7 +139,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
-- ### Download and Install osTicket
+- ## Download and Install osTicket
 
   - osTicket download: https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=sharing
  
@@ -165,7 +170,44 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
     <img width="1091" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/066d4d73-3ac1-4bfd-8824-7afbe547c9c9">
 
+  - Navigate to IIS and open "PHP Manager" > Click on "Enable or disable an extension"
+
+    <img width="835" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/9c4b350a-e105-4d56-865b-4684faa67471">
+
+  - Enable the following extensions by right clicking on the extension and choosing "Enable"
+    
+      - php_imap.dll
+      - php_intl.dll
+      - php_opcache.dll
+          
+    <img width="835" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/dd36b072-fcb3-4c3d-8d61-6a10b2226223">
+
+  - Navigate to IIS and refresh the server
+  - You should be able to view the changes take effect by taking note of the green check marks that have appeared
+
+    <img width="454" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/84e5359f-015d-4a72-8acd-c3e9414877f5">
+ 
+  - Navigate to "wwwroot" > "osTicket" > "include" > "ost-sampleconfig.php"
+  - Rename the "ost-sampleconfig.php" file to "ost-config.php"
+ 
+    <img width="846" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/4fcc58d5-6f66-46e9-a965-7ce466a21e85">
+ 
+  - Edit the permission of the "ost-sampleconfig.php" file by right clicking on the file > "Properties" > "Security" > "Advanced" > Click on "Disable Inheritance"
+ 
+    <img width="929" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/b5ee5619-c1ae-4ecb-b17b-4096c16245da">
+ 
+  - After Disabling Inheritance, add permissions by clicking "Select a principal" > Enter in "Everyone"
+ 
+    <img width="686" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/3e9b7fe6-2b0c-4531-bf67-e0deb97d7765">
+
+  - Click on the "Full Control" checkbox to give everyone full control (This is temporary and will be changed back later)
+ 
+    <img width="687" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/7c84a321-75c4-4bf9-afc9-b3e0eda6ac42">
+
+ 
 
 
-<img width="1092" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/8604c5e2-cda7-43f8-af29-98f5bd399c1d">
+
+
+    <img width="1092" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/8604c5e2-cda7-43f8-af29-98f5bd399c1d">
 
