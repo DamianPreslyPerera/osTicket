@@ -226,6 +226,39 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
     <img width="211" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/fc05d5c7-9bae-43ed-b8c3-74df0d28a3bd">
 
+  - Download the "HeidiSQL" databse client: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit?usp=sharing
+  - Run the HeidiSQL setup and run through the installation
+
+    <img width="303" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/249c5e6e-c498-4752-89e8-fc6b0ff32941">
+
+  - Click on "Finish" to start HeidiSQL
+  - Click on "New" to create a new connection to the database
+  - Type in the password for the "root" user that was created before
+
+    <img width="347" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/d23e383d-1035-4d00-bd19-a9f41810612d">
+
+  - Click on "Open" and you will be presented with this page, indicating a succesful database connection
+
+    <img width="472" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/38a325b9-73a3-41bf-b696-1a09b3a875d6">
+
+  - Create a new database within HeidiSQL by right clicking "Unnamed" > "Create New" > "Database"
+
+    <img width="473" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/2235efa5-701e-4a03-b5a1-b755688923bb">
+
+  - Name the database "osTicket" and click "Ok"
+
+    <img width="162" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/f49b955c-606c-4970-bf42-c614139413e5">
+
+
+
+
+
+
+
+
+
+     
+
 
 
     <img width="1092" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/8604c5e2-cda7-43f8-af29-98f5bd399c1d">
