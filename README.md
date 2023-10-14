@@ -56,16 +56,83 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Download the rewrite module and go through the Installation steps (This is a backend module required by osTicket): https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=sharing
 
   - Create a directory for PHP on the C:\ Hard Drive
+
     <img width="846" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/161cf9df-52da-4df2-876d-68729a8c37c1">
 
   - Download the PHP zip file into the PHP directory: https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link
   - Exctract the contents of the downloaded PHP file into the previously created PHP directory
-    <img width="846" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/49857146-9b00-4ae6-b6f7-c40c3015ef84">
- 
-  
-    
 
+    <img width="846" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/49857146-9b00-4ae6-b6f7-c40c3015ef84">
+
+- ### Download and Install C++ Redistributable file: https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=sharing
   
+    <img width="360" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/dd409c05-a161-431a-810d-28567aa334c6">
+
+
+- ### Download and Install MySQL Server
+  
+- mySQL Server Download: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=sharing
+  
+  <img width="291" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/459aa3d6-0487-43a5-aaf3-fbe90541b3e2">
+
+- Choose a "Typical Install"
+  
+  <img width="291" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/7e5d37e0-3578-4669-b096-26b1199ed031">
+
+- Click "Finish" to open the MySQL Server Configuration settings
+  
+  <img width="291" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/f2f864c5-648e-4070-bee6-d1e19275aafd">
+
+- Click on "Next"
+
+  <img width="294" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/83ca6a21-4fb2-49e1-82ae-5b9eef6deae4">
+
+- Choose "Standard Configuration"
+
+  <img width="295" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/f827f033-f2e2-4b11-8f6f-a95a0a60e775">
+
+- Choose "Next"
+
+  <img width="294" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/1ca416ec-4808-4623-9b43-964616b891a6">
+
+- Create a Password for the "root" user
+
+  <img width="294" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/7df62cc7-610c-441d-bf31-94682e95b47f">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - ### Prior to installing osTicket, dowload the following files onto the computer, the files can be found here: https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 - 
