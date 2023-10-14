@@ -95,11 +95,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
   <img width="294" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/1ca416ec-4808-4623-9b43-964616b891a6">
 
-- Create a Password for the "root" user
+- Create a Password for the "root" user and click "Next"
 
   <img width="294" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/7df62cc7-610c-441d-bf31-94682e95b47f">
 
+- Choose "Execute"
 
+  <img width="293" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/4b4d1f75-945a-4334-b267-9ef6528660f9">
+
+- Choose "Finish"
+
+  <img width="250" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/f776dd38-61dc-4601-b917-ef0e38415e04">
 
 
 
