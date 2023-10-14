@@ -249,17 +249,44 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
     <img width="162" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/f49b955c-606c-4970-bf42-c614139413e5">
 
+  - Go back into the osTicket installation page within the web browser and enter in the database settings fields
 
+    <img width="211" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/4d80a262-27e9-4767-8e7b-0ae3c1429ab3">
 
-
-
-
-
-
-
-     
-
-
-
+  - Click on the "Install Now" button on the bottom of the page
+  - You should be able to view this page, indicating a succesful install of osTicket
+    
     <img width="1092" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/8604c5e2-cda7-43f8-af29-98f5bd399c1d">
+
+  - Additional cleanup step 1:
+      - Navigate to "C:\" > "inetpub" > "wwwroot" > "osTicket" > "setup"
+      - Delete the "setup folder"
+    
+    <img width="440" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/8b1a4936-c256-42a6-94b8-d1aaa8c444ba">
+
+  - Additional cleanup step 2:
+      - Navigate to "C:\" > "inetpub" > "wwwroot" > "osTicket" > "include" > "ost-config.php"
+      - Right click "ost-config.php" > "Properties" > "Security" > "Advanced" > "Edit"
+    
+    <img width="850" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/5a95d628-c6b5-4228-a46b-952ea1c50d77">
+
+      - Check the boxes "Read & Execute" and "Read"
+      - Click "Ok" 
+
+    <img width="686" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/3ebd7aad-f5db-458e-bf86-093b4ceaab6f">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
