@@ -276,8 +276,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <img width="686" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/3ebd7aad-f5db-458e-bf86-093b4ceaab6f">
 
 
+ - ##  Login to osTicket as an Admin
+
+ - Navigate to this site in a web browser: http://localhost/osTicket/scp/login.php
+ - Login with your credentials
+
+   <img width="1093" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/6995bfd9-1d06-4831-bf07-d17f50d2cc82">
+
+ - You should be presented with this admin panel page, indicating a succesful login and installation of osTicket
+
+   <img width="778" alt="image" src="https://github.com/DamianPreslyPerera/osTicket/assets/89204562/fa9bb92f-5f72-44f8-befb-1869b17dd5dd">
 
 
+
+   
+
+   
 
 
 
